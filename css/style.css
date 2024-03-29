@@ -1,0 +1,124 @@
+
+*{
+    color: blueviolet;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: brown;
+    border-bottom: 2px solid #2d2e36;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+
+}
+
+header nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li{
+    margin: 10px;
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+}
+
+header div a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    background-color: skyblue;
+    color:blue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+} 
+
+section h1{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    text-align: center; /*centra el texto*/
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container-cards{
+    background-color: red;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid gray;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.card{
+    width: 33%;
+    height: 350;
+    background-color: #2d2e36;
+    border-radius: 5px;
+}
+
+.card h2{
+    color: aqua;
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.card p{
+    margin-top: 10px;
+    margin-bottom: 25;
+    font-size: 12px;
+    
+}
+
+.card img{
+    width: 90%;
+    margin-left: 8px;
+} 
+
+        /*Seccion Piletas*/
+
+.conteiner-piletas h2{
+    color: brown;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.conteiner-piletas p{
+    color: #2d2e36;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.conteiner-piletas img{
+    width: 160px;
+    margin-top: 10px;
+}
